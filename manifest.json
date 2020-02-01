@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Privacy Analyzer",
+    "description": "Analyze the policies you come across",
+    "version": "1.1",
+    "homepage_url": "https://github.com/get-thepacket/cross-extension",
+    "icons": {
+        "64": "icons/logo_64.png",
+        "48": "icons/logo_48.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/logo_32.png",
+        "default_title": "Chuck Norris",
+        "default_popup": "popup/index.html",
+        "browser_style": true
+    },
+    "web_accessible_resources": ["popup/cn.gif"]
+}
